@@ -4,8 +4,13 @@
 
 int main(){
 
-
-    std::cout << "2\x4d\012";
-    std::cout << "2\tM\n";
+    int i, j;
+    i = 1;
+    j = 2;
+    int& temp = j;
+    temp = i;
+    std::cout << temp << std::endl;
+    std::cout << i << std::endl;
+    std::cout << j << std::endl;
     return 0;
 }

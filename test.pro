@@ -47,4 +47,8 @@ LIBS += -L$$quote($$(OPENCV_DIR)\opencv3.3.0.0.1\build\native\lib\x64\v120\Relea
         -lopencv_xobjdetect300 \
         -lopencv_xphoto300
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    msrcr.cpp
+
+HEADERS += \
+    msrcr.h

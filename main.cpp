@@ -4,7 +4,7 @@
 
 int main(){
 
-    int i = 12;
+    int i = 14;
     int *pr = & i;
     *pr = *pr * *pr;
 
